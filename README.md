@@ -24,17 +24,16 @@ The simplest explanation of our augmentation principle is shown in the picture b
 
 ![augmentation](./img/augmentation.png)
 
-More about this module is available in the article by link (in Russian): **!!! insert the link !!!**
+More about this module is available in the article by link (in Russian): **[! insert the link !](http://)**
 
 ## Setup
 
-Installation:
 ```bash
-$ git clone https://github.com/LeorFinkelberg/timeseries_data_augmentation.git 
-$ cd timeseries_data_augmentation/
-$ conda create --name timeseries_data_augmentation python==3.8
-$ conda activate timeseries_data_augmentation
-$ pip install -r requirements.txt
+git clone https://github.com/LeorFinkelberg/timeseries_data_augmentation.git
+cd timeseries_data_augmentation/
+conda create --name timeseries_data_augmentation python==3.8
+conda activate timeseries_data_augmentation
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -47,7 +46,6 @@ The main parameters of the augmentation class `TransformData` are:
 Here is a **simple example** below. In this particular example we do:
 
 - generate a DataFrame
-- 
 - do augmentation by class `TransformData`
 - compare SMAPE of augmented and row data.
 
