@@ -28,7 +28,14 @@ More about this module is available in the article by link (in Russian): **!!! i
 
 ## Setup
 
-Installation: `git clone...???`
+Installation:
+```bash
+$ git clone https://github.com/LeorFinkelberg/timeseries_data_augmentation.git 
+$ cd timeseries_data_augmentation/
+$ conda create --name timeseries_data_augmentation python==3.8
+$ conda activate timeseries_data_augmentation
+$ pip install -r requirements.txt
+```
 
 ## Usage
 
